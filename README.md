@@ -6,10 +6,11 @@
 [RxJava 和 RxAndroid 三（生命周期控制和内存优化）](http://www.cnblogs.com/zhaoyanjun/p/5523454.html)
 
 [RxJava 和 RxAndroid 四（RxBinding的使用）](http://www.cnblogs.com/zhaoyanjun/p/5535651.html)
+
 ---
 ### 相关的github地址
 [RxJava](https://github.com/ReactiveX/RxJava)
-</br>
+
 [RxAndroid]( https://github.com/ReactiveX/RxAndroid)
 
 [RxLifecycle](https://github.com/trello/RxLifecycle)

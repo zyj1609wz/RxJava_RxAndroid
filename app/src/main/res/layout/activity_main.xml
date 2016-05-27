@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="app.com.myapplication.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity1 简单的应用"/>
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity2 简化事件源和观察者的创建方式"/>
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity3 操作符map（Operators）"/>
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity4 Observable的from 方法接收一个集合数据"/>
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity5 Observable的from 方法接收一个集合数据 和 map 方法混用"/>
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity6 flatMap() 方法的使用"/>
+
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity7 filter() 过滤方法的使用"/>
+
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity8 take()操作符的使用。（最多发出指定数量的内容）"/>
+
+            <Button
+                android:id="@+id/bt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity10 Subscription的unsubscribe方法，取消订阅"/>
+
+            <Button
+                android:id="@+id/merge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="merge 操作符的使用"/>
+
+            <Button
+                android:id="@+id/scan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="scan 累加器函数的使用"
+                />
+
+            <Button
+                android:id="@+id/filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="filter 过滤函数的使用"
+                />
+
+            <Button
+                android:id="@+id/take"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="take 数量过滤函数的使用"
+                />
+
+            <Button
+                android:id="@+id/elementAt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="elementAt 数量过滤函数的使用"
+                />
+
+            <Button
+                android:id="@+id/startWith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="startWith 操作符的使用"
+                />
+
+            <Button
+                android:id="@+id/delay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="delay 延时操作符的使用"
+                />
+
+            <Button
+                android:id="@+id/interval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="interval 轮询操作符的使用"
+                >
+            </Button>
+
+            <Button
+                android:id="@+id/timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="timer 延时操作符的使用"
+                >
+            </Button>
+
+            <Button
+                android:id="@+id/doOnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="doOnNext 在onNext方法调用之前调用"
+                >
+            </Button>
+
+            <Button
+                android:id="@+id/buffer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="buffer 积攒n个数据包，一起发送"
+                >
+            </Button>
+
+            <Button
+                android:id="@+id/handlerThreadActivity2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HandlerThreadActivity的基本用法2"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_run_scheduler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="strin"/>
+
+</LinearLayout>

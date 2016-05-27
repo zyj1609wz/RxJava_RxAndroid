@@ -1,0 +1,11 @@
+.idea/
+.gradle/
+build/
+*.iml
+local.properties
+*.apk
+*.ap_
+bin/
+gen/
+.classpath
+.project

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.com.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity1" />
+        <activity android:name=".Activity2" />
+        <activity android:name=".Activity3" />
+        <activity android:name=".Activity4" />
+        <activity android:name=".Activity5" />
+        <activity android:name=".Activity6" />
+        <activity android:name=".Activity7" />
+        <activity android:name=".Activity8" />
+        <activity android:name=".Activity10" />
+        <activity android:name=".MergeActivity" />
+        <activity android:name=".TimerActivity" />
+        <activity android:name=".ScanActivity" />
+        <activity android:name=".FilterActivity" />
+        <activity android:name=".TakeActivity" />
+        <activity android:name=".ElementAtActivity" />
+        <activity android:name=".StartWithActivity" />
+        <activity android:name=".DelayActivity" />
+        <activity android:name=".IntervalActivity" />
+        <activity android:name=".DoOnNextActivity" />
+        <activity android:name=".BufferActivity" />
+    </application>
+
+</manifest>

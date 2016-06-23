@@ -152,11 +152,16 @@
             </Button>
 
             <Button
+                android:id="@+id/combineLatestActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="combineLatestActivity的基本用法"/>
+
+            <Button
                 android:id="@+id/handlerThreadActivity2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="HandlerThreadActivity的基本用法2"/>
-
 
         </LinearLayout>
 

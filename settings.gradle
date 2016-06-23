@@ -1,1 +1,1 @@
-include ':app', ':RxAndroid', ':RxLifecycle', ':RxBinding'
+include ':app', ':RxAndroid', ':RxLifecycle', ':RxBinding', ':Retrofit', ':Test', ':RxPreferences'

@@ -41,6 +41,7 @@
         <activity android:name=".IntervalActivity" />
         <activity android:name=".DoOnNextActivity" />
         <activity android:name=".BufferActivity" />
+        <activity android:name=".CombineLatestActivity"></activity>
     </application>
 
 </manifest>

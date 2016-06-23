@@ -25,13 +25,13 @@ public class RxBusActivity extends AppCompatActivity {
         ob = RxBus.get().register( tag , String.class ) ;
         //订阅观察事件
         ob.subscribeOn( Schedulers.io())
-          .observeOn(AndroidSchedulers.mainThread() )
+                .observeOn(AndroidSchedulers.mainThread() )
                 .subscribe(new Action1<String>() {
-            @Override
-            public void call(String s) {
-                tv.setText( s );
-            }
-        }) ;
+                    @Override
+                    public void call(String s) {
+                        tv.setText( s );
+                    }
+                }) ;
 
         //发送内容
         RxBus.get().post(  tag , "我是内容,万能的Rxjava" );

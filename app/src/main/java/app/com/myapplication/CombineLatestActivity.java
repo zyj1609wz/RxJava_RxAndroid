@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 
 import rx.Observable;
 import rx.Subscriber;
@@ -14,17 +13,11 @@ import rx.functions.Func2;
 public class CombineLatestActivity extends AppCompatActivity {
 
     Observable<String> observable1 ;
-
-    private Button button ;
-
     int nn = 0 ;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_combine_latest);
-
-        button = (Button) findViewById( R.id.bt );
 
         observable1 = Observable.create(new Observable.OnSubscribe<String>() {
             @Override
@@ -37,8 +30,6 @@ public class CombineLatestActivity extends AppCompatActivity {
                 });
             }
         }) ;
-
-
 
         Observable<String> observable2 = Observable.create(new Observable.OnSubscribe<String>() {
             @Override
@@ -64,5 +55,8 @@ public class CombineLatestActivity extends AppCompatActivity {
                 Log.v(  "com-- " ,  s ) ;
             }
         }) ;
+
     }
+
+
 }

@@ -1,6 +1,7 @@
 package app.com.myapplication;
-import android.app.Activity ;
+import android.app.Activity;
 import android.os.Bundle;
+
 import rx.Observable;
 import rx.Subscriber;
 
@@ -32,6 +33,8 @@ public class Activity1 extends Activity {
                     sub.onCompleted();
                 }
             }
+
+
     );
 
     //创建一个观察者对象

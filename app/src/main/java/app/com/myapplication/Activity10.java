@@ -36,7 +36,6 @@ public class Activity10 extends Activity {
         // 利用unsubscribe都将会终止链，其他工作都不需要做。
         subscription.unsubscribe();
 
-
     }
 
     //创建一个观察者对象  （简化版）  简化Subscriber

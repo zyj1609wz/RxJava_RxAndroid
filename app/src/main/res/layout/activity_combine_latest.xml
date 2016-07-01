@@ -26,4 +26,13 @@
        android:padding="10dp"
        />
 
+   <Button
+       android:id="@+id/bt3"
+       android:layout_below="@id/bt2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="点击"
+       android:padding="10dp"
+       />
+
 </RelativeLayout>

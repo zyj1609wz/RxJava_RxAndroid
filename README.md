@@ -7,6 +7,8 @@
 
 [RxJava 和 RxAndroid 四（RxBinding的使用）](http://www.cnblogs.com/zhaoyanjun/p/5535651.html)
 
+[RxJava 和 RxAndroid 五（线程调度）](http://www.cnblogs.com/zhaoyanjun/p/5624395.html)
+
 ---
 ### 相关的github地址
 [RxJava](https://github.com/ReactiveX/RxJava)

@@ -185,6 +185,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById( R.id.rangeActivity ).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity( new Intent( MainActivity.this , RangeActivity.class ));
+            }
+        });
+
 
         BackgroundThread backgroundThread = new BackgroundThread();
         backgroundThread.start();

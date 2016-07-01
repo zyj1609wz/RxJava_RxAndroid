@@ -157,6 +157,14 @@
                 android:layout_height="wrap_content"
                 android:text="combineLatestActivity的基本用法"/>
 
+
+            <Button
+                android:id="@+id/rangeActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Range 操作符的基本用法"/>
+
+
             <Button
                 android:id="@+id/handlerThreadActivity2"
                 android:layout_width="match_parent"

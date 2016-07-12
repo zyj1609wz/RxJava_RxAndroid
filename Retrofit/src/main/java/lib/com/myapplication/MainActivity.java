@@ -6,9 +6,6 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import lib.com.myapplication.netI.UserI;
 import okhttp3.OkHttpClient;
 import retrofit2.Call;
@@ -37,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         //http://www.app.zhaoaiqiao.com/web2/
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl( "http://www.app.zhaoaiqiao.com/web2/" )
+                .baseUrl( "http://www.app.zhaoaiqiao.com/web2" )
                 .addConverterFactory( GsonConverterFactory.create())
                 .build();
         UserI userBiz = retrofit.create(UserI.class);
@@ -64,25 +61,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-        String s  =
-                "{\"ssid\":\"PLDTMyDSL\",\n" +
-                "\"owner\":{},\n" +
-                "\"updateat\":\"2016-06-01 11:10:50\",\n" +
-                "\"bssid\":\"fc:8b:97:35:84:43\",\n" +
-                "\"status\":4}" ;
-
-        try {
-            JSONObject jsonObject = new JSONObject( s ) ;
-            String s1 = jsonObject.getString( "ssid" ) ;
-            JSONObject object = jsonObject.getJSONObject( "owner") ;
-            String s2 = jsonObject.getString( "owner" ) ;
-            String updateat = jsonObject.getString( "updateat" ) ;
-            String bssid = jsonObject.getString( "bssid" ) ;
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
     }
-
 }

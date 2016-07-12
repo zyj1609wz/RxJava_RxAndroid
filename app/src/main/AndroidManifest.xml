@@ -42,7 +42,8 @@
         <activity android:name=".DoOnNextActivity" />
         <activity android:name=".BufferActivity" />
         <activity android:name=".CombineLatestActivity" />
-        <activity android:name=".RangeActivity"></activity>
+        <activity android:name=".RangeActivity" />
+        <activity android:name=".DeferActivity" />
     </application>
 
 </manifest>
